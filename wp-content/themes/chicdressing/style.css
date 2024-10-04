@@ -13,7 +13,15 @@ Text Domain:	 chicdressing
 /*
     Add your custom styles here
 */
+/* Couleur optimisée pour le corps de texte et tous les éléments de texte */
+body, p, li, a, div, span, h1, h2, h3, h4, h5, h6, blockquote {
+    color: #1C1C1E; /* Gris foncé-bleuté pour un meilleur contraste */
+}
 
+/* Assurez-vous également que les contenus de sections et articles utilisent la même couleur */
+section, article, aside, footer {
+    color: #1C1C1E; /* Harmoniser la couleur sur tout le contenu */
+}
 
 body .page-content, .page-content select, .page-content input, .page-content textarea, .page-content .post-author a, .page-content .ashe-widget a, .page-content .comment-author {
     color: #a5a5a5;
@@ -64,3 +72,4 @@ body .header-logo a{
     background: #f6f6f6;
     padding-bottom: 20px;
 }
+
