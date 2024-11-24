@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - SEOPress &#8211; On-site SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-10-02 12:14:11+0000\n"
+"PO-Revision-Date: 2024-11-18 10:25:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,11 +11,11 @@ msgstr ""
 "Language: fr\n"
 "Project-Id-Version: Plugins - SEOPress &#8211; On-site SEO - Stable (latest release)\n"
 
-#: src/Services/Admin/Notifications/Notifications.php:174
+#: src/Services/Admin/Notifications/Notifications.php:201
 msgid "Your site is using LiteSpeed caching plugin. If you encounter issues with some of the SEO features, like the universal SEO metabox, please read our guide to fix this."
 msgstr "Votre site utilise l'extension de mise en cache LiteSpeed. Si vous rencontrez des problèmes avec certaines fonctionnalités SEO, comme la boîte méta SEO universelle, veuillez consulter notre guide pour corriger cela."
 
-#: src/Services/Admin/Notifications/Notifications.php:173
+#: src/Services/Admin/Notifications/Notifications.php:200
 msgid "Fix compatibility issues with LiteSpeed caching plugin"
 msgstr "Corriger les problèmes de compatibilité avec l‘extension de mise en cache LiteSpeed"
 
@@ -182,7 +182,7 @@ msgstr "L‘extension est traduite dans des dizaines de langues."
 msgid "Translations"
 msgstr "Traductions"
 
-#: src/Services/ContentAnalysis/GetContent.php:1279
+#: src/Services/ContentAnalysis/GetContent.php:1303
 msgid "Unfortunately, this analysis can‘t work with Bricks Builder because of the way your content is stored in your database."
 msgstr "Malheureusement, cette analyse ne peut pas fonctionner avec le constructeur Bricks en raison de la façon dont votre contenu est stocké dans votre base de données."
 
@@ -278,7 +278,7 @@ msgstr "<strong>Le saviez-vous ?</strong> LinkedIn, Instagram et Pinterest util
 msgid "Separate target keywords with commas. Do not use spaces after the commas, unless you want to include them."
 msgstr "Séparez les mots clés cibles par des virgules. N’utilisez pas d’espaces après les virgules, sauf si vous souhaitez les inclure."
 
-#: src/Services/Admin/Notifications/Notifications.php:913
+#: src/Services/Admin/Notifications/Notifications.php:942
 msgid "Migrate your SEO metadata and redirects from other plugins"
 msgstr "Migrez vos métadonnées de référencement et vos redirections depuis d‘autres extensions."
 
@@ -338,35 +338,35 @@ msgstr "Barre de cookies / RGPD / Consentement de Google"
 msgid "X URL"
 msgstr "URL X"
 
-#: src/Services/ContentAnalysis/GetContent.php:965
+#: src/Services/ContentAnalysis/GetContent.php:979
 msgid "Your X Image is missing!"
 msgstr "Votre image X est manquante !"
 
-#: src/Services/ContentAnalysis/GetContent.php:951
+#: src/Services/ContentAnalysis/GetContent.php:965
 msgid "Your X Image tag is empty!"
 msgstr "Votre balise image X est vide !"
 
-#: src/Services/ContentAnalysis/GetContent.php:917
+#: src/Services/ContentAnalysis/GetContent.php:931
 msgid "Your X Description is missing!"
 msgstr "Votre description X est manquante !"
 
-#: src/Services/ContentAnalysis/GetContent.php:899
+#: src/Services/ContentAnalysis/GetContent.php:913
 msgid "We found a X Description tag in your source code."
 msgstr "Nous avons trouvé une balise de description X dans votre code source."
 
-#: src/Services/ContentAnalysis/GetContent.php:894
+#: src/Services/ContentAnalysis/GetContent.php:908
 msgid "Your X Description tag is empty!"
 msgstr "Votre balise description X est vide !"
 
-#: src/Services/ContentAnalysis/GetContent.php:859
+#: src/Services/ContentAnalysis/GetContent.php:873
 msgid "Your X Title is missing!"
 msgstr "Votre titre X est manquant !"
 
-#: src/Services/ContentAnalysis/GetContent.php:841
+#: src/Services/ContentAnalysis/GetContent.php:855
 msgid "We found a X Title tag in your source code."
 msgstr "Nous avons trouvé une balise de titre X dans votre code source."
 
-#: src/Services/ContentAnalysis/GetContent.php:836
+#: src/Services/ContentAnalysis/GetContent.php:850
 msgid "Your X Title tag is empty!"
 msgstr "Votre balise titre X est vide !"
 
@@ -424,11 +424,11 @@ msgstr "Aucun schéma n‘a été trouvé dans le code source de cette page. Bé
 msgid "Setup in 5 mins!"
 msgstr "Configuré en 5 minutes !"
 
-#: src/Services/Admin/Notifications/Notifications.php:253
+#: src/Services/Admin/Notifications/Notifications.php:279
 msgid "SEOPress is fully compatible with WPML. If you are looking to translate SEOPress global settings, read our guide by clicking the link below."
 msgstr "SEOPress est entièrement compatible avec WPML. Si vous cherchez à traduire les réglages généraux de SEOPress, lisez notre guide en cliquant sur le lien ci-dessous."
 
-#: src/Services/Admin/Notifications/Notifications.php:252
+#: src/Services/Admin/Notifications/Notifications.php:278
 msgid "WPML plugin has been detected!"
 msgstr "L'extension WPML a été détectée !"
 
@@ -581,7 +581,7 @@ msgstr "Retirer l‘offre"
 msgid "Offer"
 msgstr "Offre"
 
-#: src/Services/ContentAnalysis/GetContent.php:937
+#: src/Services/ContentAnalysis/GetContent.php:951
 #: src/Services/I18nUniversalMetabox.php:40
 msgid "X Image"
 msgstr "Image X"
@@ -796,7 +796,7 @@ msgstr "Miniature X"
 #: inc/admin/metaboxes/admin-metaboxes-form.php:476
 #: inc/admin/page-builders/elementor/inc/admin/class-document-settings-section.php:462
 #: src/Helpers/Metas/SocialSettings.php:73
-#: src/Services/ContentAnalysis/GetContent.php:878
+#: src/Services/ContentAnalysis/GetContent.php:892
 #: src/Services/I18nUniversalMetabox.php:39
 msgid "X Description"
 msgstr "Description X"
@@ -805,7 +805,7 @@ msgstr "Description X"
 #: inc/admin/metaboxes/admin-metaboxes-form.php:472
 #: inc/admin/page-builders/elementor/inc/admin/class-document-settings-section.php:451
 #: src/Helpers/Metas/SocialSettings.php:64
-#: src/Services/ContentAnalysis/GetContent.php:820
+#: src/Services/ContentAnalysis/GetContent.php:834
 #: src/Services/I18nUniversalMetabox.php:38
 msgid "X Title"
 msgstr "Titre X"
@@ -887,7 +887,7 @@ msgid "Our PRO version can optimize your image ALT texts for Search Engines usin
 msgstr "Notre version PRO peut optimiser les textes ALT de vos images pour les moteurs de recherche en utilisant l‘IA et l‘apprentissage automatique."
 
 #: inc/admin/wizard/admin-wizard.php:452
-#: src/Services/Admin/Notifications/Notifications.php:533
+#: src/Services/Admin/Notifications/Notifications.php:558
 msgid "PHP module \"intl\" is missing on your server."
 msgstr "Le module PHP « intl » est manquant sur votre serveur."
 
@@ -1086,7 +1086,7 @@ msgstr "Le nom alternatif du site (par exemple, s‘il existe un acronyme commun
 msgid "Too Many Requests (potential Spam)"
 msgstr "Trop de demandes (spam potentiel)"
 
-#: src/Services/Admin/Notifications/Notifications.php:757
+#: src/Services/Admin/Notifications/Notifications.php:786
 msgid "Is your brand new site online? So reference it as quickly as possible on Google to get your first visitors via Google Search Console. Already the case? Dismiss this alert."
 msgstr "Votre tout nouveau site est en ligne ? Alors référencez-le au plus vite sur Google pour obtenir vos premiers visiteurs via Google Search Console. C’est déjà le cas ? Ne tenez pas compte de cette alerte."
 
@@ -1922,11 +1922,11 @@ msgstr "Empêchez les moteurs de recherche de suivre / indexer les liens du fo
 msgid "Remove ?replytocom link in source code and replace it with a simple anchor"
 msgstr "Retirer le lien ?replytocom dans le code source et le remplacer par une simple ancre"
 
-#: src/Services/Admin/Notifications/Notifications.php:150
+#: src/Services/Admin/Notifications/Notifications.php:177
 msgid "Your site is using the AMP official plugin. To track users with Google Analytics on AMP pages, please go to this settings page."
 msgstr "Votre site utilise l‘extension officielle AMP. Pour suivre les visiteurs avec Google Analytics sur les pages AMP, veuillez aller dans les réglages de cette page."
 
-#: src/Services/Admin/Notifications/Notifications.php:149
+#: src/Services/Admin/Notifications/Notifications.php:176
 msgid "Use Google Analytics with AMP plugin"
 msgstr "Utilisez Google Analytics avec l‘extension AMP"
 
@@ -2627,7 +2627,7 @@ msgstr "Aucune URL à envoyer"
 msgid "Select search engines"
 msgstr "Sélectionnez les moteurs de recherche"
 
-#: src/Services/ContentAnalysis/GetContent.php:1139
+#: src/Services/ContentAnalysis/GetContent.php:1157
 #: src/Services/I18nUniversalMetabox.php:298
 msgid "Note that we scan all your source code, it means, some missing alternative texts of images might be located in your header, sidebar or footer."
 msgstr "Notez que nous analysons l’ensemble de votre code source, ce qui signifie que certains textes alternatifs ou images manquantes peuvent se trouver dans votre entête, votre colonne latérale ou votre pied de page."
@@ -2764,12 +2764,12 @@ msgid "Learn more about how we interface with all page builders to optimize your
 msgstr "Découvrez comment nous nous interfaçons avec tous les constructeurs de pages pour optimiser votre productivité"
 
 #: inc/admin/wizard/admin-wizard.php:445
-#: src/Services/Admin/Notifications/Notifications.php:514
+#: src/Services/Admin/Notifications/Notifications.php:539
 msgid "PHP module \"mbstring\" is missing on your server."
 msgstr "Le module PHP « mbstring » est manquant sur votre serveur."
 
 #: inc/admin/sections/InstantIndexing.php:49
-#: src/Services/Admin/Notifications/Notifications.php:343
+#: src/Services/Admin/Notifications/Notifications.php:369
 msgid "To prevent any conflicts with our Indexing feature, please disable it."
 msgstr "Pour éviter tout conflit avec notre fonction d’indexation, veuillez la désactiver."
 
@@ -3034,31 +3034,31 @@ msgstr "Bio de l’auteur/autrice"
 msgid "Archive Title"
 msgstr "Titre de l’archive"
 
-#: src/Services/ContentAnalysis/GetContent.php:1035
+#: src/Services/ContentAnalysis/GetContent.php:1051
 msgid "<strong>noimageindex</strong> is off. Google will index the images on this page."
 msgstr "<strong>noimageindex</strong> est désactivé. Google indexera les images de cette page."
 
-#: src/Services/ContentAnalysis/GetContent.php:1046
+#: src/Services/ContentAnalysis/GetContent.php:1062
 msgid "<strong>noarchive</strong> is off. Search engines will probably cache your page."
 msgstr "<strong>noarchive</strong> est désactivé. Les moteurs de recherche mettront probablement votre page en cache."
 
-#: src/Services/ContentAnalysis/GetContent.php:1042
+#: src/Services/ContentAnalysis/GetContent.php:1058
 msgid "<strong>noarchive</strong> is on! Search engines will not cache your page."
 msgstr "<strong>noarchive</strong> est activé ! Les moteurs de recherche ne mettront pas en cache votre page."
 
-#: src/Services/ContentAnalysis/GetContent.php:1026
+#: src/Services/ContentAnalysis/GetContent.php:1042
 msgid "<strong>nofollow</strong> is off. Search engines will follow links on this page."
 msgstr "<strong>nofollow</strong> est désactivé. Les moteurs de recherche suivront les liens de cette page."
 
-#: src/Services/ContentAnalysis/GetContent.php:1022
+#: src/Services/ContentAnalysis/GetContent.php:1038
 msgid "<strong>nofollow</strong> is on! Search engines can't follow your links on this page."
 msgstr "<strong>nofollow</strong> est activé ! Les moteurs de recherche ne peuvent suivre vos liens dans cette page."
 
-#: src/Services/ContentAnalysis/GetContent.php:1017
+#: src/Services/ContentAnalysis/GetContent.php:1033
 msgid "<strong>noindex</strong> is off. Search engines will index this page."
 msgstr "<strong>noindex</strong> est désactivé. Les moteurs de recherche indexeront cette page."
 
-#: src/Services/ContentAnalysis/GetContent.php:1013
+#: src/Services/ContentAnalysis/GetContent.php:1029
 msgid "<strong>noindex</strong> is on! Search engines can't index this page."
 msgstr "<strong>noindex</strong> est activé ! Les moteurs de recherche ne peuvent pas indexer cette page."
 
@@ -3292,39 +3292,39 @@ msgstr "Assurez vous de n‘avoir aucune URL identique après l‘activation de 
 msgid "Remove <strong>%s</strong> in your permalinks"
 msgstr "Retirer <strong>%s</strong> de vos permaliens"
 
-#: src/Services/Admin/Notifications/Notifications.php:452
+#: src/Services/Admin/Notifications/Notifications.php:477
 msgid "Global meta description missing for several taxonomies!"
 msgstr "Méta description globale manquante pour plusieurs taxonomies !"
 
-#: src/Services/Admin/Notifications/Notifications.php:431
+#: src/Services/Admin/Notifications/Notifications.php:456
 msgid "Global meta title missing for several taxonomies!"
 msgstr "Balise titre globale manquante pour plusieurs taxonomies !"
 
-#: src/Services/Admin/Notifications/Notifications.php:411
+#: src/Services/Admin/Notifications/Notifications.php:436
 msgid "Global meta description missing for several custom post types!"
 msgstr "Méta description globale manquante pour plusieurs types de publication !"
 
-#: src/Services/Admin/Notifications/Notifications.php:391
+#: src/Services/Admin/Notifications/Notifications.php:416
 msgid "Global meta title missing for several custom post types!"
 msgstr "Balise titre globale manquante pour plusieurs types de publication !"
 
-#: src/Services/Admin/Notifications/Notifications.php:275
+#: src/Services/Admin/Notifications/Notifications.php:301
 msgid "Swift Performance is caching your XML sitemap. You must disable this option to prevent any compatibility issue (Swift Performance > Settings > Caching, General tab)."
 msgstr "Swift Performance met en cache votre plan de site XML. Vous devez désactiver cette option pour éviter tout problème de compatibilité (Swift Performance > Réglages > Cache, onglet Général)."
 
-#: src/Services/Admin/Notifications/Notifications.php:274
+#: src/Services/Admin/Notifications/Notifications.php:300
 msgid "Your XML sitemap is cached!"
 msgstr "Votre plan de site XML est en cache !"
 
-#: src/Services/Admin/Notifications/Notifications.php:112
+#: src/Services/Admin/Notifications/Notifications.php:139
 msgid "Activate it"
 msgstr "L‘activer"
 
-#: src/Services/Admin/Notifications/Notifications.php:106
+#: src/Services/Admin/Notifications/Notifications.php:133
 msgid "By default, our new SEO metabox is disabled for Gutenberg. Test it without further delay!"
 msgstr "Par défaut, notre nouvelle boîte de méta est désactivée pour Gutenberg. Testez-là sans plus tarder !"
 
-#: src/Services/Admin/Notifications/Notifications.php:105
+#: src/Services/Admin/Notifications/Notifications.php:132
 msgid "Enable our universal SEO metabox for the Block Editor"
 msgstr "Activer notre boîte méta SEO universelle pour l‘éditeur de blocs"
 
@@ -3345,7 +3345,7 @@ msgstr "Enregistrer"
 msgid "Latest News from SEOPress Blog"
 msgstr "Dernières actualités du blog SEOPress"
 
-#: src/Services/Admin/Notifications/Notifications.php:895
+#: src/Services/Admin/Notifications/Notifications.php:924
 msgid "Dismiss"
 msgstr "Ignorer"
 
@@ -3499,32 +3499,32 @@ msgstr "Lundi"
 msgid "Inbound links"
 msgstr "Liens entrants"
 
-#: src/Services/ContentAnalysis/GetContent.php:1293
+#: src/Services/ContentAnalysis/GetContent.php:1317
 #: src/Services/I18nUniversalMetabox.php:308
 msgid "This page doesn't have any internal links from other content. Links from archive pages are not considered internal links due to lack of context."
 msgstr "Cette page n’a pas de liens entrants provenant d’autres contenus. Les liens provenant de pages d’archives ne sont pas considérés comme des liens entrants en raison du manque de contexte."
 
 #. translators: %s link to edit the post
-#: src/Services/ContentAnalysis/GetContent.php:1288
+#: src/Services/ContentAnalysis/GetContent.php:1312
 msgid "edit %s"
 msgstr "modifier %s"
 
 #. translators: %s internal links
-#: src/Services/ContentAnalysis/GetContent.php:1283
+#: src/Services/ContentAnalysis/GetContent.php:1307
 msgid "We found %s internal links to this page."
 msgstr "Nous avons trouvé %s liens entrants vers cette page."
 
-#: src/Services/ContentAnalysis/GetContent.php:1273
+#: src/Services/ContentAnalysis/GetContent.php:1297
 #: src/Services/I18nUniversalMetabox.php:305
 #: src/Services/I18nUniversalMetabox.php:701
 msgid "Internal links are important for SEO and user experience. Always try to link your content together, with quality link anchors."
 msgstr "Les liens internes sont importants pour le référencement et l‘expérience utilisateur. Essayez toujours de lier vos contenus entre eux, avec des ancres de liens de qualité."
 
-#: src/Services/ContentAnalysis/GetContent.php:282
+#: src/Services/ContentAnalysis/GetContent.php:288
 msgid "None of your target keywords were found in Heading 1 (H1)."
 msgstr "Aucun de vos mots-clés cibles n’a été trouvé dans les titres 1 (H1)."
 
-#: src/Services/ContentAnalysis/GetContent.php:277
+#: src/Services/ContentAnalysis/GetContent.php:283
 msgid "No Heading 1 (H1) found in your content. This is required for both SEO and Accessibility!"
 msgstr "Aucun titre 1 (H1) trouvé dans votre contenu. Ceci est nécessaire pour à la fois votre référencement et l‘accessibilité."
 
@@ -3639,11 +3639,11 @@ msgstr "Vous n‘avez pas besoin d‘activer l‘extension sélectionnée pour l
 msgid "Image SEO"
 msgstr "Référencement des images"
 
-#: src/Services/Admin/Notifications/Notifications.php:648
+#: src/Services/Admin/Notifications/Notifications.php:673
 msgid "Google Analytics will not track your visitors until you finish the configuration."
 msgstr "Google Analytics ne suivra pas vos visiteurs jusqu‘à ce que vous ayez terminé la configuration."
 
-#: src/Services/Admin/Notifications/Notifications.php:647
+#: src/Services/Admin/Notifications/Notifications.php:672
 msgid "You have activated Google Analytics tracking without adding identifiers!"
 msgstr "Vous avez activé le suivi Google Analytics sans avoir saisi d‘identifiants !"
 
@@ -3664,30 +3664,30 @@ msgstr "La carte récapitulative avec l‘option <strong>Grande</strong> présen
 msgid "WooCommerce Shop Page."
 msgstr "Page boutique WooCommerce."
 
-#: src/Services/ContentAnalysis/GetContent.php:1353
+#: src/Services/ContentAnalysis/GetContent.php:1379
 #: src/Services/I18nUniversalMetabox.php:361
 msgid "This page doesn't have any canonical URL."
 msgstr "Cette page ne dispose d‘aucune URL canonique."
 
-#: src/Services/ContentAnalysis/GetContent.php:1345
-#: src/Services/ContentAnalysis/GetContent.php:1349
+#: src/Services/ContentAnalysis/GetContent.php:1371
+#: src/Services/ContentAnalysis/GetContent.php:1375
 #: src/Services/I18nUniversalMetabox.php:357
 msgid "This page doesn't have any canonical URL because your post is set to <strong>noindex</strong>. This is normal."
 msgstr "Cette page ne dispose d‘aucune URL canonique car votre article est marqué comme <strong>noindex</strong>. Ceci est normal."
 
-#: src/Services/ContentAnalysis/GetContent.php:1338
+#: src/Services/ContentAnalysis/GetContent.php:1364
 #: src/Services/I18nUniversalMetabox.php:369
 msgid "You must fix this. Canonical URL duplication is bad for SEO."
 msgstr "Vous devez corriger cela. Une URL canonique dupliquée est mauvaise pour votre référencement."
 
 #. translators: %s number of canonical tags
-#: src/Services/ContentAnalysis/GetContent.php:1328
+#: src/Services/ContentAnalysis/GetContent.php:1354
 msgid "We found %s canonical URL in your source code. Below, the list:"
 msgid_plural "We found %s canonical URLs in your source code. Below, the list:"
 msgstr[0] "Nous avons trouvé %s URL canoniques dans votre code source. Ci-dessous la liste :"
 msgstr[1] ""
 
-#: src/Services/ContentAnalysis/GetContent.php:1323
+#: src/Services/ContentAnalysis/GetContent.php:1349
 #: src/Services/I18nUniversalMetabox.php:354
 msgid "A canonical URL is required by search engines to handle duplicate content."
 msgstr "Une URL canonique est nécessaire pour les moteurs de recherche afin de gérer le contenu dupliqué."
@@ -3745,23 +3745,23 @@ msgstr "À gauche"
 msgid "Text alignment"
 msgstr "Alignement du texte"
 
-#: src/Services/ContentAnalysis/GetContent.php:778
+#: src/Services/ContentAnalysis/GetContent.php:792
 msgid "Your Open Graph Site Name tag is empty!"
 msgstr "Votre balise Open Graph Site Name (nom du site) est vide !"
 
-#: src/Services/ContentAnalysis/GetContent.php:720
+#: src/Services/ContentAnalysis/GetContent.php:734
 msgid "Your Open Graph URL tag is empty!"
 msgstr "Votre balise Open Graph URL est vide !"
 
-#: src/Services/ContentAnalysis/GetContent.php:677
+#: src/Services/ContentAnalysis/GetContent.php:689
 msgid "Your Open Graph Image tag is empty!"
 msgstr "Votre balise Open Graph Image est vide !"
 
-#: src/Services/ContentAnalysis/GetContent.php:620
+#: src/Services/ContentAnalysis/GetContent.php:632
 msgid "Your Open Graph Description tag is empty!"
 msgstr "Votre balise Open Graph Description est vide !"
 
-#: src/Services/ContentAnalysis/GetContent.php:562
+#: src/Services/ContentAnalysis/GetContent.php:574
 msgid "Your Open Graph Title tag is empty!"
 msgstr "Votre balise Open Graph Titre est vide !"
 
@@ -3907,11 +3907,11 @@ msgstr "SEO pour « %s »"
 msgid "noindex is on!"
 msgstr "noindex est activé !"
 
-#: src/Services/Admin/Notifications/Notifications.php:210
+#: src/Services/Admin/Notifications/Notifications.php:236
 msgid "To avoid any SEO conflicts, please disable every SEO option from <strong>DIVI theme options page, SEO tab</strong>."
 msgstr "Pour éviter tout conflit en référencement, veuiller désactiver chaque option SEO depuis la <strong>page d’options de votre thème DIVI, onglet SEO</strong>."
 
-#: src/Services/Admin/Notifications/Notifications.php:209
+#: src/Services/Admin/Notifications/Notifications.php:235
 msgid "We noticed that some SEO DIVI options are enabled!"
 msgstr "Nous avons remarqué que certaines options SEO de DIVI sont activées !"
 
@@ -3939,11 +3939,11 @@ msgstr "Catégorie principale"
 msgid "Current month in digital format"
 msgstr "Le mois actuel en format numérique"
 
-#: src/Services/Admin/Notifications/Notifications.php:372
+#: src/Services/Admin/Notifications/Notifications.php:397
 msgid "You must disable \"Meta tag robots\" option from Enfold settings (SEO Support tab) to avoid any SEO issues."
 msgstr "Vous devez désactiver l’option « Meta tag robots » dans les réglages Enfold (onglet Aide SEO) pour éviter tout problème de référencement."
 
-#: src/Services/Admin/Notifications/Notifications.php:371
+#: src/Services/Admin/Notifications/Notifications.php:396
 msgid "Enfold theme is not correctly setup for SEO!"
 msgstr "Le thème Enfold n’est pas correctement configuré pour le référencement !"
 
@@ -4029,7 +4029,7 @@ msgstr "Limité à 1000 publications par type de publication. Vous pouvez modifi
 msgid "noindex on paged archives"
 msgstr "noindex sur les archives paginées"
 
-#: src/Services/ContentAnalysis/GetContent.php:185
+#: src/Services/ContentAnalysis/GetContent.php:189
 #: src/Services/I18nUniversalMetabox.php:320
 msgid "This is your homepage. This check doesn't apply here because there is no slug."
 msgstr "Ceci est votre page d’accueil. Cette vérification ne s’applique pas ici car il n’y a pas de slug."
@@ -4052,7 +4052,7 @@ msgstr "Aucun type de publication personnalisé à configurer."
 msgid "Define custom og:image tag for post type archive pages"
 msgstr "Définir une balise og:image personnalisée pour les pages d’archive de type de publication."
 
-#: src/Services/Admin/Notifications/Notifications.php:694
+#: src/Services/Admin/Notifications/Notifications.php:719
 msgid "To reduce the number pages search engines have to crawl to find all your articles, it is recommended displaying more posts per page. This should not be a problem for your users. Using mobile, we prefer to scroll down rather than clicking on next page links."
 msgstr "Afin de réduire le nombre de pages que les moteurs de recherche doivent explorer pour trouver tous vos articles, il est recommandé d’afficher plus de publications par page. Cela ne devrait pas être un problème pour vos utilisateurs ou utilisatrices. Sur mobile, nous préférons faire défiler vers le bas plutôt que de cliquer sur les liens de la page suivante."
 
@@ -4275,12 +4275,12 @@ msgstr "Ce Sitemap XML contient %s URL(s)."
 msgid "This XML Sitemap Index file contains %s sitemaps."
 msgstr "L’index du fichier Sitemap XML contient %s plans de site."
 
-#: src/Services/ContentAnalysis/GetContent.php:511
+#: src/Services/ContentAnalysis/GetContent.php:523
 #: src/Services/I18nUniversalMetabox.php:128
 msgid "No custom meta description is set for this post. If the global meta description suits you, you can ignore this recommendation."
 msgstr "Aucune méta description personnalisée n‘est définie pour cette publication. Si la méta description globale vous convient, vous pouvez ignorer cette recommandation."
 
-#: src/Services/ContentAnalysis/GetContent.php:438
+#: src/Services/ContentAnalysis/GetContent.php:450
 #: src/Services/I18nUniversalMetabox.php:105
 #: src/Services/I18nUniversalMetabox.php:254
 msgid "No custom title is set for this post. If the global meta title suits you, you can ignore this recommendation."
@@ -4357,14 +4357,14 @@ msgstr "Une balise de méta description doit généralement informer et intéres
 msgid "Titles are critical to give users a quick insight into the content of a result and why it’s relevant to their query. It's often the primary piece of information used to decide which result to click on, so it's important to use high-quality titles on your web pages."
 msgstr "Les titres sont essentiels pour donner aux utilisateurs ou utilisatrices un aperçu rapide du contenu d’un résultat et des raisons pour lesquelles il est pertinent pour leur requête. Il s’agit souvent de l’élément d’information principal utilisé pour décider sur quel résultat cliquer. Il est donc important d’utiliser des titres de bonne qualité sur vos pages web."
 
-#: src/Services/Admin/Notifications/Notifications.php:35
-#: src/Services/Admin/Notifications/Notifications.php:255
+#: src/Services/Admin/Notifications/Notifications.php:36
+#: src/Services/Admin/Notifications/Notifications.php:281
 msgid "Information"
 msgstr "Information"
 
 #: inc/admin/wizard/admin-wizard.php:76
-#: src/Services/Admin/Notifications/Notifications.php:108
-#: src/Services/Admin/Notifications/Notifications.php:129
+#: src/Services/Admin/Notifications/Notifications.php:135
+#: src/Services/Admin/Notifications/Notifications.php:156
 msgid "Wizard"
 msgstr "Assistant"
 
@@ -4432,48 +4432,48 @@ msgstr "Appliquer cette image à toutes vos balises og:image"
 msgid "Post thumbnail URL"
 msgstr "URL de la miniature de la publication"
 
-#: src/Services/Admin/Notifications/Notifications.php:735
+#: src/Services/Admin/Notifications/Notifications.php:764
 msgid "Local Business websites should have a My Business page to improve visibility in search results. Click on the cross on the right to delete this notification if you are not concerned."
 msgstr "Les sites web d’entreprises locales devraient avoir une page My Business pour améliorer leur visibilité dans les résultats de recherche. Supprimez cette notification en utilisant la croix sur la droite si cela ne vous concerne pas."
 
-#: src/Services/Admin/Notifications/Notifications.php:713
+#: src/Services/Admin/Notifications/Notifications.php:742
 msgid "XML Sitemaps are useful to facilitate the crawling of your content by search engine robots. Indirectly, this can benefit your ranking by reducing the crawl bugdet."
 msgstr "Les plans de site XML sont utiles pour faciliter l’exploration de votre contenu par les robots de moteur de recherche. Indirectement, cela peut bénéficier à votre classement en réduisant le bugdet de crawl."
 
-#: src/Services/Admin/Notifications/Notifications.php:671
+#: src/Services/Admin/Notifications/Notifications.php:696
 msgid "Enabling this option will create duplicate content for each article beyond x comments. This can have a disastrous effect by creating a large number of poor quality pages, and slowing the Google bot unnecessarily, so your ranking in search results."
 msgstr "L’activation de cette option créera du contenu dupliqué pour chaque article au-delà de x commentaires. Cela peut avoir un effet désastreux en créant un grand nombre de pages de mauvaise qualité, et en ralentissant inutilement le robot Google, et donc votre classement dans les résultats de recherche."
 
-#: src/Services/Admin/Notifications/Notifications.php:33
+#: src/Services/Admin/Notifications/Notifications.php:34
 msgid "Support the development and improvement of the plugin by taking 15 seconds of your time to leave us a user review on the official WordPress plugins repository. Thank you!"
 msgstr "Soutenez le développement et l’amélioration de l’extension en prenant 15 secondes de votre temps pour nous laisser un avis sur le dépôt officiel des extensions WordPress. Merci !"
 
-#: src/Services/Admin/Notifications/Notifications.php:602
-#: src/Services/Admin/Notifications/Notifications.php:625
+#: src/Services/Admin/Notifications/Notifications.php:627
+#: src/Services/Admin/Notifications/Notifications.php:650
 msgid "Why is this important? Showing only the summary of each article significantly reduces the theft of your content by third party sites. Not to mention, the increase in your traffic, your advertising revenue, conversions..."
 msgstr "Pourquoi est-ce important ? Afficher uniquement le résumé de chaque article réduit considérablement le vol de votre contenu par des sites tiers. Sans oublier l’augmentation de votre trafic, vos recettes publicitaires, vos conversions..."
 
-#: src/Services/Admin/Notifications/Notifications.php:582
+#: src/Services/Admin/Notifications/Notifications.php:607
 msgid "Your Site Title is used by WordPress, your theme and your plugins including SEOPress. It is an essential component in the generation of title tags, but not only. Enter one!"
 msgstr "Votre titre de site est utilisé par WordPress, votre thème et vos extensions, y compris SEOPress. C’est un élément essentiel dans la génération des balises de titre, mais pas seulement. Saisissez-en un !"
 
-#: src/Services/Admin/Notifications/Notifications.php:562
+#: src/Services/Admin/Notifications/Notifications.php:587
 msgid "You have activated the blocking of the indexing of your site. If your site is under development, this is probably normal. Otherwise, check your settings. Delete this notification using the cross on the right if you are not concerned."
 msgstr "Vous avez activé le blocage de l’indexation de votre site. Si votre site est en cours de développement, c’est probablement normal. Sinon, vérifiez vos réglages. Supprimez cette notification en utilisant la croix sur la droite si vous n’êtes pas concerné."
 
 #: inc/admin/wizard/admin-wizard.php:439 inc/admin/wizard/admin-wizard.php:446
 #: inc/admin/wizard/admin-wizard.php:453
-#: src/Services/Admin/Notifications/Notifications.php:496
-#: src/Services/Admin/Notifications/Notifications.php:515
-#: src/Services/Admin/Notifications/Notifications.php:534
+#: src/Services/Admin/Notifications/Notifications.php:521
+#: src/Services/Admin/Notifications/Notifications.php:540
+#: src/Services/Admin/Notifications/Notifications.php:559
 msgid "This PHP module, installed by default with PHP, is required by many plugins including SEOPress. Please contact your host as soon as possible to solve this."
 msgstr "Ce module PHP, installé par défaut avec PHP, est nécessaire pour de nombreuses extensions, y compris SEOPress. Veuillez contacter votre hébergeur dès que possible pour résoudre ce problème."
 
-#: src/Services/Admin/Notifications/Notifications.php:477
+#: src/Services/Admin/Notifications/Notifications.php:502
 msgid "Https is considered by Google as a positive signal for the ranking of your site. It also reassures your visitors for data security, and improves trust."
 msgstr "HTTPS est considéré par Google comme un signal positif pour le classement de votre site. Il rassure également vos visiteurs pour la sécurité des données, et améliore la confiance."
 
-#: src/Services/Admin/Notifications/Notifications.php:314
+#: src/Services/Admin/Notifications/Notifications.php:340
 msgid "Do you want to migrate all your metadata to SEOPress? Do not use multiple SEO plugins at once to avoid conflicts!"
 msgstr "Voulez-vous migrer toutes vos métadonnées vers SEOPress ? N’utilisez pas plusieurs extensions SEO en même temps pour éviter les conflits !"
 
@@ -4481,16 +4481,16 @@ msgstr "Voulez-vous migrer toutes vos métadonnées vers SEOPress ? N’utilise
 #. translators: %s name of a SEO plugin (e.g. Yoast SEO)
 #. translators: %s name of a WP plugin (e.g. IndexNow)
 #: inc/admin/sections/InstantIndexing.php:45
-#: src/Services/Admin/Notifications/Notifications.php:313
-#: src/Services/Admin/Notifications/Notifications.php:342
+#: src/Services/Admin/Notifications/Notifications.php:339
+#: src/Services/Admin/Notifications/Notifications.php:368
 msgid "We noticed that you use <strong>%s</strong> plugin."
 msgstr "Nous avons remarqué que vous utilisez l’extension <strong>%s</strong>."
 
-#: src/Services/Admin/Notifications/Notifications.php:232
+#: src/Services/Admin/Notifications/Notifications.php:258
 msgid "This error indicates that your theme uses a deprecated function to generate the title tag of your pages. SEOPress will not be able to generate your custom title tags if this error is not fixed."
 msgstr "Cette erreur indique que votre thème utilise une fonction dépréciée pour générer la balise de titre de vos pages. SEOPress ne sera pas en mesure de générer vos balises de titre personnalisées si cette erreur n’est pas corrigée."
 
-#: src/Services/Admin/Notifications/Notifications.php:127
+#: src/Services/Admin/Notifications/Notifications.php:154
 msgid "The best way to quickly setup SEOPress on your site."
 msgstr "La meilleure façon de configurer rapidement SEOPress sur votre site."
 
@@ -4549,39 +4549,39 @@ msgstr "Devrait être amélioré"
 msgid "<strong>Should be improved:</strong> red or orange dots <br> <strong>Good:</strong> yellow or green dots"
 msgstr "<strong>Devrait être amélioré : </strong>Points rouges ou oranges<br><strong>Bon : </strong>Points jaunes ou verts"
 
-#: src/Services/ContentAnalysis/GetContent.php:1243
+#: src/Services/ContentAnalysis/GetContent.php:1265
 #: src/Services/I18nUniversalMetabox.php:223
 msgid "This page doesn't have any outbound links."
 msgstr "Cette page n’a aucun lien sortant."
 
 #. translators: %d number of outbound links
 #. translators: %s number of outbound links
-#: src/Services/ContentAnalysis/GetContent.php:1233
+#: src/Services/ContentAnalysis/GetContent.php:1255
 #: src/Services/I18nUniversalMetabox.php:228
 msgid "We found %s outbound links in your page. Below, the list:"
 msgstr "Nous avons trouvé %s liens sortants dans votre page. Ci-dessous, la liste :"
 
-#: src/Services/ContentAnalysis/GetContent.php:1229
+#: src/Services/ContentAnalysis/GetContent.php:1251
 #: src/Services/I18nUniversalMetabox.php:220
 msgid "Internet is built on the principle of hyperlink. It is therefore perfectly normal to make links between different websites. However, avoid making links to low quality sites, SPAM... If you are not sure about the quality of a site, add the attribute \"nofollow\" to your link."
 msgstr "Internet est construit sur le principe de l’hyperlien. Il est donc tout à fait normal de créer des liens entre différents sites web. Cependant, il faut éviter de faire des liens vers des sites de mauvaise qualité, le SPAM… Si vous n’êtes pas sûr de la qualité d’un site, ajoutez l’attribut « nofollow » à votre lien."
 
-#: src/Services/ContentAnalysis/GetContent.php:1126
+#: src/Services/ContentAnalysis/GetContent.php:1144
 #: src/Services/I18nUniversalMetabox.php:294
 msgid "No alternative text found for these images. Alt tags are important for both SEO and accessibility. Edit your images using the media library or your favorite page builder and fill in alternative text fields."
 msgstr "Aucun texte alternatif trouvé pour ces images. Les balises Alt sont importantes à la fois pour le SEO et l’accessibilité. Modifiez vos images à l’aide de la bibliothèque ou de votre constructeur de page préféré et remplissez d’autres champs de texte alternatifs."
 
-#: src/Services/ContentAnalysis/GetContent.php:141
+#: src/Services/ContentAnalysis/GetContent.php:143
 #: src/Services/I18nUniversalMetabox.php:239
 msgid "Search engines love fresh content. Update regularly your articles without entirely rewriting your content and give them a boost in search rankings. SEOPress takes care of the technical part."
 msgstr "Les moteurs de recherche adorent le contenu récent. Mettez régulièrement à jour vos articles sans avoir à réécrire entièrement votre contenu et à les stimuler dans les classements de recherche. SEOPress s’occupe de la partie technique."
 
-#: src/Services/ContentAnalysis/GetContent.php:139
+#: src/Services/ContentAnalysis/GetContent.php:141
 #: src/Services/I18nUniversalMetabox.php:235
 msgid "The last modified date of this article is less than 1 year. Cool!"
 msgstr "La dernière date de modification de cet article est inférieure à 1 an. Cool !"
 
-#: src/Services/ContentAnalysis/GetContent.php:134
+#: src/Services/ContentAnalysis/GetContent.php:136
 #: src/Services/I18nUniversalMetabox.php:234
 msgid "This post is a little old!"
 msgstr "Cet article est un peu ancien !"
@@ -4666,143 +4666,143 @@ msgid "Facebook Preview"
 msgstr "Aperçu Facebook"
 
 #. translators: %d number of TWITTER:IMAGE tags
-#: src/Services/ContentAnalysis/GetContent.php:945
+#: src/Services/ContentAnalysis/GetContent.php:959
 msgid "We found %d twitter:image in your content."
 msgstr "Nous avons trouvé %d twitter:image dans votre contenu."
 
 #. translators: %d number of TWITTER:DESCRIPTION tags
-#: src/Services/ContentAnalysis/GetContent.php:888
+#: src/Services/ContentAnalysis/GetContent.php:902
 #: src/Services/I18nUniversalMetabox.php:52
 msgid "You should not use more than one twitter:description in your post content to avoid conflicts when sharing on social networks. X will take the last twitter:description tag from your source code. Below, the list:"
 msgstr "Vous ne devez pas utiliser plus d’une balise twitter:description dans votre contenu d’article pour éviter les conflits lors du partage sur les réseaux sociaux. X prendra la dernière balise twitter:description de votre code source. Ci-dessous, la liste :"
 
 #. translators: %d number of TWITTER:DESCRIPTION tags
-#: src/Services/ContentAnalysis/GetContent.php:887
+#: src/Services/ContentAnalysis/GetContent.php:901
 msgid "We found %d twitter:description in your content."
 msgstr "Nous avons trouvé %d twitter:description dans votre contenu."
 
 #. translators: %d number of TWITTER:TITLE tags
-#: src/Services/ContentAnalysis/GetContent.php:830
+#: src/Services/ContentAnalysis/GetContent.php:844
 #: src/Services/I18nUniversalMetabox.php:48
 msgid "You should not use more than one twitter:title in your post content to avoid conflicts when sharing on social networks. X will take the last twitter:title tag from your source code. Below, the list:"
 msgstr "Vous ne devez pas utiliser plus d’une balise twitter:title dans votre contenu d’article pour éviter les conflits lors du partage sur les réseaux sociaux. X prendra la dernière balise twitter:titre de votre code source. Ci-dessous, la liste :"
 
 #. translators: %d number of times a twitter:tile tag is found
-#: src/Services/ContentAnalysis/GetContent.php:829
+#: src/Services/ContentAnalysis/GetContent.php:843
 msgid "We found %d twitter:title in your content."
 msgstr "Nous avons trouvé %d twitter:title dans votre contenu."
 
-#: src/Services/ContentAnalysis/GetContent.php:801
+#: src/Services/ContentAnalysis/GetContent.php:815
 msgid "Your Open Graph Site Name is missing!"
 msgstr "Votre nom de site Open Graph est manquant !"
 
-#: src/Services/ContentAnalysis/GetContent.php:783
+#: src/Services/ContentAnalysis/GetContent.php:797
 msgid "We found an Open Graph Site Name tag in your source code."
 msgstr "Nous avons trouvé une balise de nom de site Open Graph dans votre code source."
 
 #. translators: %d number of OG:SITE_NAME tags
-#: src/Services/ContentAnalysis/GetContent.php:772
+#: src/Services/ContentAnalysis/GetContent.php:786
 #: src/Services/I18nUniversalMetabox.php:90
 msgid "You should not use more than one og:site_name in your post content to avoid conflicts when sharing on social networks. Facebook will take the last og:site_name tag from your source code. Below, the list:"
 msgstr "Vous ne devez pas utiliser plus d’une balise og:site_name dans votre contenu d’article pour éviter les conflits lors du partage sur les réseaux sociaux. Facebook prendra la dernière balise og:site_name de votre code source. Ci-dessous, la liste :"
 
 #. translators: %d number of OG:SITE_NAME tags
-#: src/Services/ContentAnalysis/GetContent.php:771
+#: src/Services/ContentAnalysis/GetContent.php:785
 msgid "We found %d og:site_name in your content."
 msgstr "Nous avons trouvé %d og:site_name dans votre contenu."
 
-#: src/Services/ContentAnalysis/GetContent.php:762
+#: src/Services/ContentAnalysis/GetContent.php:776
 msgid "Open Graph Site Name"
 msgstr "Nom du site Open Graph"
 
-#: src/Services/ContentAnalysis/GetContent.php:743
+#: src/Services/ContentAnalysis/GetContent.php:757
 msgid "Your Open Graph URL is missing!"
 msgstr "Votre URL Open Graph est manquante !"
 
-#: src/Services/ContentAnalysis/GetContent.php:725
+#: src/Services/ContentAnalysis/GetContent.php:739
 msgid "We found an Open Graph URL tag in your source code."
 msgstr "Nous avons trouvé une balise URL Open Graph dans votre code source."
 
 #. translators: %d number of OG:URL tags
-#: src/Services/ContentAnalysis/GetContent.php:714
+#: src/Services/ContentAnalysis/GetContent.php:728
 #: src/Services/I18nUniversalMetabox.php:86
 msgid "You should not use more than one og:url in your post content to avoid conflicts when sharing on social networks. Facebook will take the last og:url tag from your source code. Below, the list:"
 msgstr "Vous ne devez pas utiliser plus d’une balise og:url dans votre contenu d’article pour éviter les conflits lors du partage sur les réseaux sociaux. Facebook prendra la dernière balise og:url de votre code source. Ci-dessous, la liste :"
 
 #. translators: %d number of OG:URL tags
-#: src/Services/ContentAnalysis/GetContent.php:713
+#: src/Services/ContentAnalysis/GetContent.php:727
 msgid "We found %d og:url in your content."
 msgstr "Nous avons trouvé %d og:url dans votre contenu."
 
-#: src/Services/ContentAnalysis/GetContent.php:704
+#: src/Services/ContentAnalysis/GetContent.php:718
 msgid "Open Graph URL"
 msgstr "URL Open Graph"
 
-#: src/Services/ContentAnalysis/GetContent.php:691
+#: src/Services/ContentAnalysis/GetContent.php:703
 msgid "Your Open Graph Image is missing!"
 msgstr "Votre image Open Graph est manquante !"
 
 #. translators: %d number of OG:IMAGE tags
-#: src/Services/ContentAnalysis/GetContent.php:671
+#: src/Services/ContentAnalysis/GetContent.php:683
 msgid "We found %d og:image in your content."
 msgstr "Nous avons trouvé %d og:image dans votre contenu."
 
-#: src/Services/ContentAnalysis/GetContent.php:663
+#: src/Services/ContentAnalysis/GetContent.php:675
 msgid "Open Graph Image"
 msgstr "Image Open Graph"
 
-#: src/Services/ContentAnalysis/GetContent.php:643
+#: src/Services/ContentAnalysis/GetContent.php:655
 msgid "Your Open Graph Description is missing!"
 msgstr "Votre description Open Graph est manquante !"
 
-#: src/Services/ContentAnalysis/GetContent.php:625
+#: src/Services/ContentAnalysis/GetContent.php:637
 msgid "We found an Open Graph Description tag in your source code."
 msgstr "Nous avons trouvé une balise de description Open Graph dans votre code source."
 
 #. translators: %d number of OG:DESCRIPTION tags
-#: src/Services/ContentAnalysis/GetContent.php:614
+#: src/Services/ContentAnalysis/GetContent.php:626
 #: src/Services/I18nUniversalMetabox.php:82
 msgid "You should not use more than one og:description in your post content to avoid conflicts when sharing on social networks. Facebook will take the last og:description tag from your source code. Below, the list:"
 msgstr "Vous ne devez pas utiliser plus d’une og:description dans votre contenu d’article pour éviter les conflits lors du partage sur les réseaux sociaux. Facebook prendra la dernière balise og:description de votre code source. Ci-dessous, la liste :"
 
 #. translators: %d number of OG:DESCRIPTION tags
-#: src/Services/ContentAnalysis/GetContent.php:613
+#: src/Services/ContentAnalysis/GetContent.php:625
 msgid "We found %d og:description in your content."
 msgstr "Nous avons trouvé %d og:description dans votre contenu."
 
-#: src/Services/ContentAnalysis/GetContent.php:604
+#: src/Services/ContentAnalysis/GetContent.php:616
 msgid "Open Graph Description"
 msgstr "Description Open Graph"
 
-#: src/Services/ContentAnalysis/GetContent.php:585
+#: src/Services/ContentAnalysis/GetContent.php:597
 msgid "Your Open Graph Title is missing!"
 msgstr "Votre titre Open Graph est manquant !"
 
-#: src/Services/ContentAnalysis/GetContent.php:567
+#: src/Services/ContentAnalysis/GetContent.php:579
 msgid "We found an Open Graph Title tag in your source code."
 msgstr "Nous avons trouvé une balise titre Open Graph dans votre code source."
 
 #. translators: %d number of OG:TITLE tags
-#: src/Services/ContentAnalysis/GetContent.php:556
+#: src/Services/ContentAnalysis/GetContent.php:568
 #: src/Services/I18nUniversalMetabox.php:78
 msgid "You should not use more than one og:title in your post content to avoid conflicts when sharing on social networks. Facebook will take the last og:title tag from your source code. Below, the list:"
 msgstr "Vous ne devez pas utiliser plus d’une balise og:title dans votre contenu d’article pour éviter les conflits lors du partage sur les réseaux sociaux. Facebook prendra la dernière balise og:title de votre code source. Ci-dessous, la liste :"
 
 #. translators: %d number of OG:TITLE tags
-#: src/Services/ContentAnalysis/GetContent.php:555
+#: src/Services/ContentAnalysis/GetContent.php:567
 msgid "We found %d og:title in your content."
 msgstr "Nous avons trouvé %d og:title dans votre contenu."
 
-#: src/Services/ContentAnalysis/GetContent.php:546
+#: src/Services/ContentAnalysis/GetContent.php:558
 msgid "Open Graph Title"
 msgstr "Titre Open Graph"
 
-#: src/Services/ContentAnalysis/GetContent.php:188
+#: src/Services/ContentAnalysis/GetContent.php:192
 #: src/Services/I18nUniversalMetabox.php:324
 msgid "You should add one of your target keyword in your permalink."
 msgstr "Vous devez ajouter un de vos mots clés cibles dans votre permalien."
 
-#: src/Services/ContentAnalysis/GetContent.php:174
+#: src/Services/ContentAnalysis/GetContent.php:178
 #: src/Services/I18nUniversalMetabox.php:328
 msgid "Cool, one of your target keyword is used in your permalink."
 msgstr "Cool, un de vos mots clés cibles est utilisé dans votre permalien."
@@ -4836,7 +4836,7 @@ msgid "Remove hentry post class"
 msgstr "Retirer la classe hentry de publication"
 
 #: inc/admin/wizard/admin-wizard.php:438
-#: src/Services/Admin/Notifications/Notifications.php:495
+#: src/Services/Admin/Notifications/Notifications.php:520
 msgid "PHP module \"DOM\" is missing on your server."
 msgstr "Le module PHP « DOM » est manquant sur votre serveur."
 
@@ -4999,11 +4999,11 @@ msgstr "L’option précédente doit être cochée pour utiliser ceci."
 msgid "Display and automatically accept the user‘s consent on page load (not fully GDPR)"
 msgstr "Afficher et accepter automatiquement le consentement de la personne visitant le site au chargement de la page (non conforme au RGPD)"
 
-#: src/Services/Admin/Notifications/Notifications.php:133
+#: src/Services/Admin/Notifications/Notifications.php:160
 msgid "Start the wizard"
 msgstr "Démarrer l’assistant"
 
-#: src/Services/Admin/Notifications/Notifications.php:126
+#: src/Services/Admin/Notifications/Notifications.php:153
 msgid "Configure SEOPress in a few minutes with our installation wizard"
 msgstr "Configurez SEOPress en quelques minutes grâce à notre assistant d’installation"
 
@@ -5108,12 +5108,12 @@ msgstr "Indexation"
 msgid "Your site"
 msgstr "Votre site"
 
-#: src/Services/ContentAnalysis/GetContent.php:1074
-#: src/Services/ContentAnalysis/GetContent.php:1077
+#: src/Services/ContentAnalysis/GetContent.php:1090
+#: src/Services/ContentAnalysis/GetContent.php:1093
 msgid "<strong>nositelinkssearchbox</strong> is off. Google will probably display a sitelinks searchbox in search results."
 msgstr "<strong>nositelinkssearchbox</strong> est désactivé. Google affichera probablement la boîte de recherche dans les résultats de recherche."
 
-#: src/Services/ContentAnalysis/GetContent.php:1070
+#: src/Services/ContentAnalysis/GetContent.php:1086
 msgid "<strong>nositelinkssearchbox</strong> is on! Google will not display a sitelinks searchbox in search results."
 msgstr "<strong>nositelinkssearchbox</strong> est activé ! Google n’affichera probablement pas la boîte de recherche dans les résultats de recherche."
 
@@ -5161,11 +5161,11 @@ msgstr "Exportation des réglages de l’extension"
 msgid "Schemas"
 msgstr "Schémas"
 
-#: inc/admin/callbacks/ImageSEO.php:184
+#: inc/admin/callbacks/ImageSEO.php:209
 msgid "When uploading an image file, automatically set the description based on the filename"
 msgstr "Lors du téléversement d’un fichier image, définir automatiquement la description en fonction du nom de fichier"
 
-#: inc/admin/callbacks/ImageSEO.php:165
+#: inc/admin/callbacks/ImageSEO.php:190
 msgid "When uploading an image file, automatically set the caption based on the filename"
 msgstr "Lors du téléversement d’un fichier image, définir automatiquement la légende en fonction du nom de fichier"
 
@@ -5185,11 +5185,11 @@ msgstr "Si cette option est cochée, elle aura la priorité sur la redirection d
 msgid "Redirect attachment pages to their file URL (https://www.example.com/my-image-file.jpg)"
 msgstr "Rediriger les pages de fichiers joints vers l’URL du fichier (https://www.exemple.com/mon-fichier-image.jpg)"
 
-#: inc/admin/settings/ImageSEO.php:72
+#: inc/admin/settings/ImageSEO.php:80
 msgid "Automatically set the image Description"
 msgstr "Définir automatiquement la description de l’image"
 
-#: inc/admin/settings/ImageSEO.php:64
+#: inc/admin/settings/ImageSEO.php:72
 msgid "Automatically set the image Caption"
 msgstr "Définir automatiquement la légende de l’image"
 
@@ -5239,25 +5239,25 @@ msgstr "AVERTISSEMENT"
 msgid "<strong>WARNING:</strong> Migration will delete / update all <strong>%1$s posts and terms metadata</strong>. Some dynamic variables will not be interpreted. We do <strong>NOT delete any %2$s data</strong>."
 msgstr "<strong>Avertissement : </strong>La migration mettra à jour / supprimera toutes les <strong>métadonnées %1$s des publications et des termes</strong>. Certaines variables dynamiques ne seront pas interprétées. Nous ne <strong>supprimons aucune donnée de %2$s</strong>."
 
-#: src/Services/ContentAnalysis/GetContent.php:1060
+#: src/Services/ContentAnalysis/GetContent.php:1076
 #: src/Services/I18nUniversalMetabox.php:160
 msgid "We found no meta robots on this page. It means, your page is index,follow. Search engines will index it, and follow links. "
 msgstr "Nous n’avons trouvé aucune méta « robots » sur cette page. Cela signifie que le réglage de votre page est : index, follow. Les moteurs de recherche vont l’indexer et suivre les liens."
 
 #. translators: %s number of meta robots tags
 #. translators: %s number of meta robots
-#: src/Services/ContentAnalysis/GetContent.php:1003
+#: src/Services/ContentAnalysis/GetContent.php:1019
 #: src/Services/I18nUniversalMetabox.php:165
 msgid "We found %s meta robots in your page. There is probably something wrong with your theme!"
 msgstr "Nous avons trouvé %s métas robots dans votre page. Il y a probablement quelque chose qui ne fonctionne pas dans votre thème !"
 
 #. translators: %d number of headings 1
-#: src/Services/ContentAnalysis/GetContent.php:262
+#: src/Services/ContentAnalysis/GetContent.php:268
 #: src/Services/I18nUniversalMetabox.php:278
 msgid "You should not use more than one H1 heading in your post content. The rule is simple: only one H1 for each web page. It is better for both SEO and accessibility. Below, the list:"
 msgstr "Vous ne devez pas utiliser plus d’un titre H1 dans le contenu de votre article. La règle est simple : un seul H1 pour chaque page web. Ceci est préférable à la fois pour le SEO et l’accessibilité. Ci-dessous, la liste :"
 
-#: src/Services/ContentAnalysis/GetContent.php:247
+#: src/Services/ContentAnalysis/GetContent.php:253
 msgid "Target keywords were found in Heading 1 (H1)."
 msgstr "Les mots-clés cibles ont été trouvés dans le titre de niveau 1 (H1)."
 
@@ -5561,11 +5561,11 @@ msgstr "Séparez les mots clés cibles par des virgules. N’utilisez pas d’es
 msgid "Enable Image Sitemap (standard images, image galleries, featured image, WooCommerce product images)"
 msgstr "Activer le plan de site des images (images standard, galeries d’images, images mises en avant, images de produits WooCommerce)"
 
-#: src/Services/Admin/Notifications/Notifications.php:39
+#: src/Services/Admin/Notifications/Notifications.php:40
 msgid "Rate us!"
 msgstr "Nous évaluer !"
 
-#: src/Services/Admin/Notifications/Notifications.php:32
+#: src/Services/Admin/Notifications/Notifications.php:33
 msgid "You like SEOPress? Please help us by rating us 5 stars!"
 msgstr "Vous aimez SEOPress ? Aidez-nous en nous donnant 5 étoiles !"
 
@@ -5860,13 +5860,13 @@ msgstr "Afficher la colonne mot clé cible dans les types de publications"
 msgid "Content analysis"
 msgstr "Analyse du contenu"
 
-#: src/Services/ContentAnalysis/GetContent.php:1202
+#: src/Services/ContentAnalysis/GetContent.php:1222
 #: src/Services/I18nUniversalMetabox.php:344
 msgid "This page doesn't have any nofollow links."
 msgstr "Cette page n’a pas de lien nofollow."
 
 #. translators: %d number of nofollow links
-#: src/Services/ContentAnalysis/GetContent.php:1185
+#: src/Services/ContentAnalysis/GetContent.php:1205
 msgid "We found %d links with nofollow attribute in your page. Do not overuse nofollow attribute in links. Below, the list:"
 msgstr "Nous avons trouvé %d liens avec l’attribut nofollow dans cette page. Ne sur-utilisez pas cet attribut dans les liens. Ci-dessous, la liste :"
 
@@ -5874,12 +5874,12 @@ msgstr "Nous avons trouvé %d liens avec l’attribut nofollow dans cette page. 
 msgid "NoFollow Links"
 msgstr "Liens NoFollow"
 
-#: src/Services/ContentAnalysis/GetContent.php:1152
+#: src/Services/ContentAnalysis/GetContent.php:1170
 #: src/Services/I18nUniversalMetabox.php:286
 msgid "We could not find any image in your content. Content with media is a plus for your SEO."
 msgstr "Nous n’avons trouvé aucune image dans votre contenu. Du contenu avec des médias un plus pour le référencement."
 
-#: src/Services/ContentAnalysis/GetContent.php:1149
+#: src/Services/ContentAnalysis/GetContent.php:1167
 #: src/Services/I18nUniversalMetabox.php:290
 msgid "All alternative tags are filled in. Good work!"
 msgstr "Toutes les balises alternatives sont renseignées. Bon travail !"
@@ -5888,11 +5888,11 @@ msgstr "Toutes les balises alternatives sont renseignées. Bon travail !"
 msgid "Post Content"
 msgstr "Contenu de l’article"
 
-#: src/Services/ContentAnalysis/GetContent.php:1057
+#: src/Services/ContentAnalysis/GetContent.php:1073
 msgid "<strong>nosnippet</strong> is off. Search engines will display a snippet of this page in search results."
 msgstr "<strong>nosnippet</strong> est désactivé. Les moteurs de recherche afficheront un extrait de cette page dans les résultats de recherche."
 
-#: src/Services/ContentAnalysis/GetContent.php:1053
+#: src/Services/ContentAnalysis/GetContent.php:1069
 msgid "<strong>nosnippet</strong> is on! Search engines will not display a snippet of this page in search results."
 msgstr "<strong>nosnippet</strong> est activé ! Les moteurs de recherche n’afficheront pas d’extrait de cette page dans les résultats de recherche."
 
@@ -5904,7 +5904,7 @@ msgstr "est désactivé. Les moteurs de recherche mettront probablement cette pa
 msgid "is on! Search engines will not cache your page."
 msgstr "est activé ! Les moteurs de recherche ne mettront pas cette page en cache."
 
-#: src/Services/ContentAnalysis/GetContent.php:1031
+#: src/Services/ContentAnalysis/GetContent.php:1047
 msgid "<strong>noimageindex</strong> is on! Google will not index your images on this page (but if someone makes a direct link to one of your image in this page, it will be indexed)."
 msgstr "<strong>noimageindex</strong> est activé ! Google n’indexera pas vos images dans cette page (mais si quelqu’un effectue un lien direct vers l’une des images dans cette page, elle sera indexée)."
 
@@ -5924,41 +5924,41 @@ msgstr "est désactivé. Les moteurs de recherche indexeront cette page."
 msgid "is on! Search engines can't index this page."
 msgstr "est activé ! Les moteurs de recherche ne peuvent pas indexer cette page."
 
-#: src/Services/ContentAnalysis/GetContent.php:506
+#: src/Services/ContentAnalysis/GetContent.php:518
 #: src/Services/I18nUniversalMetabox.php:149
 msgid "The length of your meta description is correct"
 msgstr "La longueur de votre méta description est correcte"
 
-#: src/Services/ContentAnalysis/GetContent.php:497
+#: src/Services/ContentAnalysis/GetContent.php:509
 #: src/Services/I18nUniversalMetabox.php:145
 msgid "You custom meta description is too long."
 msgstr "Votre méta description personnalisée est trop longue."
 
-#: src/Services/ContentAnalysis/GetContent.php:489
+#: src/Services/ContentAnalysis/GetContent.php:501
 #: src/Services/I18nUniversalMetabox.php:141
 msgid "None of your target keywords were found in the Meta description."
 msgstr "Aucun de vos mots-clés cibles n’a été trouvé dans la méta description."
 
-#: src/Services/ContentAnalysis/GetContent.php:479
+#: src/Services/ContentAnalysis/GetContent.php:491
 #: src/Services/I18nUniversalMetabox.php:132
 msgid "Target keywords were found in the Meta description."
 msgstr "Les mots-clés cibles ont été trouvés dans la méta description."
 
-#: src/Services/ContentAnalysis/GetContent.php:433
+#: src/Services/ContentAnalysis/GetContent.php:445
 msgid "The length of your title is correct"
 msgstr "La longueur de votre titre est correcte"
 
-#: src/Services/ContentAnalysis/GetContent.php:424
+#: src/Services/ContentAnalysis/GetContent.php:436
 #: src/Services/I18nUniversalMetabox.php:122
 msgid "Your custom title is too long."
 msgstr "Votre titre personnalisé est trop long."
 
-#: src/Services/ContentAnalysis/GetContent.php:416
+#: src/Services/ContentAnalysis/GetContent.php:428
 #: src/Services/I18nUniversalMetabox.php:118
 msgid "None of your target keywords were found in the Meta Title."
 msgstr "Aucun de vos mots-clés cibles n’a été trouvé dans la balise titre."
 
-#: src/Services/ContentAnalysis/GetContent.php:407
+#: src/Services/ContentAnalysis/GetContent.php:419
 #: src/Services/I18nUniversalMetabox.php:109
 msgid "Target keywords were found in the Meta Title."
 msgstr "Les mots-clés cibles ont été trouvés dans la balise titre."
@@ -5968,36 +5968,36 @@ msgstr "Les mots-clés cibles ont été trouvés dans la balise titre."
 msgid "Meta title"
 msgstr "Balise titre"
 
-#: src/Services/ContentAnalysis/GetContent.php:367
+#: src/Services/ContentAnalysis/GetContent.php:377
 msgid "None of your target keywords were found in Heading 3 (H3)."
 msgstr "Aucun de vos mots-clés cibles n’a été trouvé dans les titres 3 (H3)."
 
-#: src/Services/ContentAnalysis/GetContent.php:359
+#: src/Services/ContentAnalysis/GetContent.php:369
 msgid "Target keywords were found in Heading 3 (H3)."
 msgstr "Les mots-clés cibles ont été trouvés dans les titres 3 (H3)."
 
-#: src/Services/ContentAnalysis/GetContent.php:342
+#: src/Services/ContentAnalysis/GetContent.php:352
 msgid "H3 (Heading 3)"
 msgstr "H3 (Titre 3)"
 
-#: src/Services/ContentAnalysis/GetContent.php:325
+#: src/Services/ContentAnalysis/GetContent.php:333
 msgid "None of your target keywords were found in Heading 2 (H2)."
 msgstr "Aucun de vos mots-clés cibles n’a été trouvé dans les titres 2 (H2)."
 
-#: src/Services/ContentAnalysis/GetContent.php:316
+#: src/Services/ContentAnalysis/GetContent.php:324
 msgid "Target keywords were found in Heading 2 (H2)."
 msgstr "Les mots-clés cibles ont été trouvés dans les titres 2 (H2)."
 
-#: src/Services/ContentAnalysis/GetContent.php:299
+#: src/Services/ContentAnalysis/GetContent.php:307
 msgid "H2 (Heading 2)"
 msgstr "H2 (Titre 2)"
 
 #. translators: %d number of headings 1
-#: src/Services/ContentAnalysis/GetContent.php:261
+#: src/Services/ContentAnalysis/GetContent.php:267
 msgid "We found %d Heading 1 (H1) in your content."
 msgstr "Nous avons trouvé %d Titre 1 (H1) dans votre contenu."
 
-#: src/Services/ContentAnalysis/GetContent.php:219
+#: src/Services/ContentAnalysis/GetContent.php:225
 msgid "H1 (Heading 1)"
 msgstr "H1 (Titre 1)"
 
@@ -6006,11 +6006,11 @@ msgstr "H1 (Titre 1)"
 #. translators: %1$s heading 3, %2$d number of times the heading 3 was found
 #. translators: %1$s target keyword, %2$d number of times the target keyword
 #. was found
-#: src/Services/ContentAnalysis/GetContent.php:253
-#: src/Services/ContentAnalysis/GetContent.php:320
-#: src/Services/ContentAnalysis/GetContent.php:363
-#: src/Services/ContentAnalysis/GetContent.php:410
-#: src/Services/ContentAnalysis/GetContent.php:483
+#: src/Services/ContentAnalysis/GetContent.php:259
+#: src/Services/ContentAnalysis/GetContent.php:328
+#: src/Services/ContentAnalysis/GetContent.php:373
+#: src/Services/ContentAnalysis/GetContent.php:422
+#: src/Services/ContentAnalysis/GetContent.php:495
 msgid "%1$s was found %2$d times."
 msgstr "%1$s a été trouvé %2$d fois."
 
@@ -6082,7 +6082,7 @@ msgstr "Catégorie de produit unique"
 
 #: inc/admin/callbacks/Advanced.php:598
 msgid "Remove noindex item from Admin Bar in backend and frontend"
-msgstr "Retirer SEOPress de la barre d’admin en interfaces admin et publique"
+msgstr "Retirer l‘item noindex de la barre d’admin en interfaces admin et publique"
 
 #: inc/admin/callbacks/Sitemaps.php:313
 msgid "Disable date after each post, page, post type?"
@@ -6092,7 +6092,7 @@ msgstr "Désactiver la date après chaque article, page ou type de contenu ?"
 msgid "Disable the display of the publication date"
 msgstr "Désactiver l’affichage de la date de publication"
 
-#: src/Services/Admin/Notifications/Notifications.php:231
+#: src/Services/Admin/Notifications/Notifications.php:257
 msgid "Your theme doesn't use <strong>add_theme_support('title-tag');</strong>"
 msgstr "Votre thème n’utilise pas <strong>add_theme_support('title-tag');</strong>"
 
@@ -6194,7 +6194,7 @@ msgstr "Indiquer le contenu paginé à Google"
 msgid "Events"
 msgstr "Évènements"
 
-#: src/Services/Admin/Notifications/Notifications.php:693
+#: src/Services/Admin/Notifications/Notifications.php:718
 msgid "Display more posts per page on homepage and archives"
 msgstr "Affichez plus d’articles par page sur vos pages d’accueil et d’archives"
 
@@ -6287,15 +6287,15 @@ msgstr[1] "%s articles à ne pas indexer."
 msgid "Enable noindex"
 msgstr "Activer noindex"
 
-#: src/Services/Admin/Notifications/Notifications.php:677
+#: src/Services/Admin/Notifications/Notifications.php:702
 msgid "Disable this!"
 msgstr "Désactiver cela !"
 
-#: src/Services/Admin/Notifications/Notifications.php:670
+#: src/Services/Admin/Notifications/Notifications.php:695
 msgid "Break comments into pages is ON!"
 msgstr "La séparation des commentaires en plusieurs pages est activée !"
 
-#: src/Services/Admin/Notifications/Notifications.php:624
+#: src/Services/Admin/Notifications/Notifications.php:649
 msgid "Your RSS feed shows full text!"
 msgstr "Votre flux RSS affiche la totalité du texte !"
 
@@ -6407,31 +6407,31 @@ msgstr "Afficher la colonne nofollow dans les types de publications"
 msgid "Show noindex column in post types"
 msgstr "Afficher la colonne noindex dans les types de publications"
 
-#: src/Services/Admin/Notifications/Notifications.php:763
+#: src/Services/Admin/Notifications/Notifications.php:792
 msgid "Add your site to Search Console!"
 msgstr "Ajouter votre site à la Search Console !"
 
-#: src/Services/Admin/Notifications/Notifications.php:756
+#: src/Services/Admin/Notifications/Notifications.php:785
 msgid "Add your site to Google. It's free!"
 msgstr "Ajoutez votre site à Google. C’est gratuit !"
 
-#: src/Services/Admin/Notifications/Notifications.php:741
+#: src/Services/Admin/Notifications/Notifications.php:770
 msgid "Create your page now!"
 msgstr "Créer votre page maintenant !"
 
-#: src/Services/Admin/Notifications/Notifications.php:734
+#: src/Services/Admin/Notifications/Notifications.php:763
 msgid "Do you have a Google My Business page? It's free!"
 msgstr "Avez-vous une page Google My Business ? C’est gratuit !"
 
 #. translators: %s blog post URL
 #: inc/admin/blocks/news.php:87 inc/admin/callbacks/Social.php:680
-#: src/Services/Admin/Notifications/Notifications.php:180
-#: src/Services/Admin/Notifications/Notifications.php:238
-#: src/Services/Admin/Notifications/Notifications.php:259
-#: src/Services/Admin/Notifications/Notifications.php:483
-#: src/Services/Admin/Notifications/Notifications.php:502
-#: src/Services/Admin/Notifications/Notifications.php:521
-#: src/Services/Admin/Notifications/Notifications.php:540
+#: src/Services/Admin/Notifications/Notifications.php:207
+#: src/Services/Admin/Notifications/Notifications.php:264
+#: src/Services/Admin/Notifications/Notifications.php:285
+#: src/Services/Admin/Notifications/Notifications.php:508
+#: src/Services/Admin/Notifications/Notifications.php:527
+#: src/Services/Admin/Notifications/Notifications.php:546
+#: src/Services/Admin/Notifications/Notifications.php:565
 #: src/Services/ContentAnalysis/GetContent.php:100
 msgid "Learn more"
 msgstr "En savoir plus"
@@ -6562,45 +6562,46 @@ msgstr "Cliquez pour activer cette fonctionnalité"
 msgid "Click to disable this feature"
 msgstr "Cliquez pour désactiver cette fonctionnalité"
 
-#: src/Services/Admin/Notifications/Notifications.php:152
-#: src/Services/Admin/Notifications/Notifications.php:176
-#: src/Services/Admin/Notifications/Notifications.php:479
-#: src/Services/Admin/Notifications/Notifications.php:627
-#: src/Services/Admin/Notifications/Notifications.php:650
-#: src/Services/Admin/Notifications/Notifications.php:696
-#: src/Services/Admin/Notifications/Notifications.php:715
+#: src/Services/Admin/Notifications/Notifications.php:179
+#: src/Services/Admin/Notifications/Notifications.php:203
+#: src/Services/Admin/Notifications/Notifications.php:504
+#: src/Services/Admin/Notifications/Notifications.php:652
+#: src/Services/Admin/Notifications/Notifications.php:675
+#: src/Services/Admin/Notifications/Notifications.php:721
+#: src/Services/Admin/Notifications/Notifications.php:744
 msgid "Medium impact"
 msgstr "Impact modéré"
 
 #: src/Services/Admin/Notifications/Notifications.php:61
 #: src/Services/Admin/Notifications/Notifications.php:84
-#: src/Services/Admin/Notifications/Notifications.php:212
-#: src/Services/Admin/Notifications/Notifications.php:234
-#: src/Services/Admin/Notifications/Notifications.php:277
-#: src/Services/Admin/Notifications/Notifications.php:316
-#: src/Services/Admin/Notifications/Notifications.php:345
-#: src/Services/Admin/Notifications/Notifications.php:374
-#: src/Services/Admin/Notifications/Notifications.php:394
-#: src/Services/Admin/Notifications/Notifications.php:414
-#: src/Services/Admin/Notifications/Notifications.php:434
-#: src/Services/Admin/Notifications/Notifications.php:455
-#: src/Services/Admin/Notifications/Notifications.php:498
-#: src/Services/Admin/Notifications/Notifications.php:517
-#: src/Services/Admin/Notifications/Notifications.php:536
-#: src/Services/Admin/Notifications/Notifications.php:564
-#: src/Services/Admin/Notifications/Notifications.php:584
-#: src/Services/Admin/Notifications/Notifications.php:604
-#: src/Services/Admin/Notifications/Notifications.php:673
-#: src/Services/Admin/Notifications/Notifications.php:737
-#: src/Services/Admin/Notifications/Notifications.php:759
+#: src/Services/Admin/Notifications/Notifications.php:111
+#: src/Services/Admin/Notifications/Notifications.php:238
+#: src/Services/Admin/Notifications/Notifications.php:260
+#: src/Services/Admin/Notifications/Notifications.php:303
+#: src/Services/Admin/Notifications/Notifications.php:342
+#: src/Services/Admin/Notifications/Notifications.php:371
+#: src/Services/Admin/Notifications/Notifications.php:399
+#: src/Services/Admin/Notifications/Notifications.php:419
+#: src/Services/Admin/Notifications/Notifications.php:439
+#: src/Services/Admin/Notifications/Notifications.php:459
+#: src/Services/Admin/Notifications/Notifications.php:480
+#: src/Services/Admin/Notifications/Notifications.php:523
+#: src/Services/Admin/Notifications/Notifications.php:542
+#: src/Services/Admin/Notifications/Notifications.php:561
+#: src/Services/Admin/Notifications/Notifications.php:589
+#: src/Services/Admin/Notifications/Notifications.php:609
+#: src/Services/Admin/Notifications/Notifications.php:629
+#: src/Services/Admin/Notifications/Notifications.php:698
+#: src/Services/Admin/Notifications/Notifications.php:766
+#: src/Services/Admin/Notifications/Notifications.php:788
 msgid "High impact"
 msgstr "Impact élevé"
 
-#: src/Services/Admin/Notifications/Notifications.php:476
+#: src/Services/Admin/Notifications/Notifications.php:501
 msgid "Your site doesn't use an SSL certificate!"
 msgstr "Votre site n’utilise pas de certificat SSL !"
 
-#: src/Services/Admin/Notifications/Notifications.php:320
+#: src/Services/Admin/Notifications/Notifications.php:346
 msgid "Migrate!"
 msgstr "Migrer !"
 
@@ -6645,7 +6646,7 @@ msgstr "Nom pluriel d’archives du type de publication personnalisé"
 msgid "Google Analytics"
 msgstr "Google Analytics"
 
-#: src/Actions/Options/Init.php:265
+#: src/Actions/Options/Init.php:266
 msgid "404 - Page not found"
 msgstr "404 - Page non trouvée"
 
@@ -6695,11 +6696,11 @@ msgstr "SEO"
 msgid "GO PRO!"
 msgstr "Passez en PRO !"
 
-#: src/Services/Admin/Notifications/Notifications.php:601
+#: src/Services/Admin/Notifications/Notifications.php:626
 msgid "Your permalinks are not SEO Friendly! Enable pretty permalinks to fix this."
 msgstr "Vos permaliens ne sont pas optimisés pour le SEO ! Veuillez activer la réécriture d’URL pour corriger cela."
 
-#: src/Services/Admin/Notifications/Notifications.php:581
+#: src/Services/Admin/Notifications/Notifications.php:606
 msgid "Your site title is empty!"
 msgstr "Le titre de votre site est vide !"
 
@@ -6735,33 +6736,34 @@ msgstr "Vérification de site Bing"
 msgid "Google site verification"
 msgstr "Vérification de site Google"
 
-#: src/Services/Admin/Notifications/Notifications.php:712
+#: src/Services/Admin/Notifications/Notifications.php:741
 msgid "You don't have an XML Sitemap!"
 msgstr "Vous n’avez pas de plan de site XML !"
 
 #: inc/admin/sections/InstantIndexing.php:51
 #: src/Services/Admin/Notifications/Notifications.php:65
 #: src/Services/Admin/Notifications/Notifications.php:88
-#: src/Services/Admin/Notifications/Notifications.php:156
-#: src/Services/Admin/Notifications/Notifications.php:216
-#: src/Services/Admin/Notifications/Notifications.php:281
-#: src/Services/Admin/Notifications/Notifications.php:349
-#: src/Services/Admin/Notifications/Notifications.php:378
-#: src/Services/Admin/Notifications/Notifications.php:398
-#: src/Services/Admin/Notifications/Notifications.php:418
-#: src/Services/Admin/Notifications/Notifications.php:438
-#: src/Services/Admin/Notifications/Notifications.php:459
-#: src/Services/Admin/Notifications/Notifications.php:568
-#: src/Services/Admin/Notifications/Notifications.php:588
-#: src/Services/Admin/Notifications/Notifications.php:608
-#: src/Services/Admin/Notifications/Notifications.php:631
-#: src/Services/Admin/Notifications/Notifications.php:654
-#: src/Services/Admin/Notifications/Notifications.php:700
-#: src/Services/Admin/Notifications/Notifications.php:719
+#: src/Services/Admin/Notifications/Notifications.php:115
+#: src/Services/Admin/Notifications/Notifications.php:183
+#: src/Services/Admin/Notifications/Notifications.php:242
+#: src/Services/Admin/Notifications/Notifications.php:307
+#: src/Services/Admin/Notifications/Notifications.php:375
+#: src/Services/Admin/Notifications/Notifications.php:403
+#: src/Services/Admin/Notifications/Notifications.php:423
+#: src/Services/Admin/Notifications/Notifications.php:443
+#: src/Services/Admin/Notifications/Notifications.php:463
+#: src/Services/Admin/Notifications/Notifications.php:484
+#: src/Services/Admin/Notifications/Notifications.php:593
+#: src/Services/Admin/Notifications/Notifications.php:613
+#: src/Services/Admin/Notifications/Notifications.php:633
+#: src/Services/Admin/Notifications/Notifications.php:656
+#: src/Services/Admin/Notifications/Notifications.php:679
+#: src/Services/Admin/Notifications/Notifications.php:725
+#: src/Services/Admin/Notifications/Notifications.php:748
 msgid "Fix this!"
 msgstr "Corriger cela !"
 
-#: src/Services/Admin/Notifications/Notifications.php:561
+#: src/Services/Admin/Notifications/Notifications.php:586
 msgid "Your site is not visible to Search Engines!"
 msgstr "Votre site n’est pas visible des moteurs de recherche !"
 
