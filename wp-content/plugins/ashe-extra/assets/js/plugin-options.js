@@ -181,7 +181,8 @@ jQuery(document).ready(function($) {
                     type: 'POST',
                     url: ajaxurl,
                     data: {
-                        action: 'ashextra_import_xml'
+                        action: 'ashextra_import_xml',
+                        nonce: ashePluginOptions.nonce,
                     },
                     success: function(data, textStatus, XMLHttpRequest){
                         console.log(data)

@@ -4,7 +4,7 @@ Plugin Name: Ashe Extra
 Plugin URI: http://wordpress.org/plugins/ashe-extra/
 Description: Adds One Click Demo Import functionality for Ashe theme.
 Author: WP Royal
-Version: 1.2.92
+Version: 1.3
 License: GPLv2 or later
 Author URI: https://wp-royal.com/
 Text Domain: ashe-extra
@@ -384,6 +384,12 @@ if ( ! class_exists( 'Ashextra_Options' ) ) {
 		
 		// Import
 		public function ashextra_import_xml() {
+            $nonce = $_POST['nonce'];
+
+            if ( !wp_verify_nonce( $nonce, 'plugin-options-js' ) || !current_user_can('manage_options') ) {
+                return;
+            }
+			
 			require ABSPATH . 'wp-admin/includes/class-wp-importer.php';
 			require plugin_dir_path( __FILE__ ) . 'includes/importers/logger.php';
 			require plugin_dir_path( __FILE__ ) . 'includes/importers/wxr-importer.php';
@@ -673,7 +679,7 @@ if ( ! class_exists( 'Ashextra_Options' ) ) {
 
 			wp_enqueue_script( 'plugin-install' );
 			wp_enqueue_script( 'updates' );
-			wp_enqueue_script( 'plugin-options-js', plugin_dir_url( __FILE__ ) . 'assets/js/plugin-options.js', array(), '1.2.6' );
+			wp_enqueue_script( 'plugin-options-js', plugin_dir_url( __FILE__ ) . 'assets/js/plugin-options.js', array(), '1.3' );
 
 
             wp_localize_script(
@@ -685,7 +691,7 @@ if ( ! class_exists( 'Ashextra_Options' ) ) {
             );
 
 			// Enqueue Styles
-			wp_enqueue_style( 'plugin-options-css', plugin_dir_url( __FILE__ ) . 'assets/css/plugin-options.css', array(), '1.2.6' );
+			wp_enqueue_style( 'plugin-options-css', plugin_dir_url( __FILE__ ) . 'assets/css/plugin-options.css', array(), '1.3' );
 		}
 
 	} // end Ashextra_Options

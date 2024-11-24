@@ -95,15 +95,19 @@ function ashe_activation_notice() {
 	$theme_data	 = wp_get_theme();
 	$theme_vers	 = str_replace( '.', '_', $theme_data->get( 'Version' ) );
 
+	// Add the nonce to the dismiss button URL
     $nonce = wp_create_nonce( esc_html( $theme_data->get( 'TextDomain' ) ) . $theme_vers . '_notice_ignore_nonce' );
 	
-	// Add the nonce to the dismiss button URL
-    $dismiss_url = add_query_arg(
-        array(
-            esc_html( $theme_data->get( 'TextDomain' ) ) . $theme_vers . '_notice_ignore' => '0',
-            '_wpnonce' => $nonce
-        )
-    );
+	// Sanitize the key by using sanitize_key() and sanitize other parameters as needed
+	$key = sanitize_key( $theme_data->get( 'TextDomain' ) . $theme_vers . '_notice_ignore' );
+	$dismiss_url = esc_url( add_query_arg(
+		[
+			$key      => '0',
+			'_wpnonce' => esc_html( $nonce ) // Ensure $nonce is escaped
+		],
+		admin_url() // Or another base URL if needed
+	) );
+
 
 	if ( ! get_user_meta( $user_id, esc_html( $theme_data->get( 'TextDomain' ) ) . $theme_vers .'_notice_ignore' ) ) {
 
@@ -248,7 +252,7 @@ add_action( 'wp_enqueue_scripts', 'ashe_scripts' );
 function ashe_playfair_font_url() {
     $font_url = '';
     if ( 'off' !== _x( 'on', 'Google font: on or off', 'ashe' ) ) {
-        $font_url = add_query_arg( 'family', urlencode( 'Playfair Display:400,700' ), "//fonts.googleapis.com/css" );
+        $font_url = esc_url( add_query_arg( 'family', urlencode( 'Playfair Display:400,700' ), "//fonts.googleapis.com/css" ) );
     }
     return $font_url;
 }
@@ -256,7 +260,7 @@ function ashe_playfair_font_url() {
 function ashe_opensans_font_url() {
     $font_url = '';
     if ( 'off' !== _x( 'on', 'Google font: on or off', 'ashe' ) ) {
-        $font_url = add_query_arg( 'family', urlencode( 'Open Sans:400italic,400,600italic,600,700italic,700' ), "//fonts.googleapis.com/css" );
+        $font_url = esc_url( add_query_arg( 'family', urlencode( 'Open Sans:400italic,400,600italic,600,700italic,700' ), "//fonts.googleapis.com/css" ) );
     }
     return $font_url;
 }
@@ -264,7 +268,7 @@ function ashe_opensans_font_url() {
 function ashe_kalam_font_url() {
     $font_url = '';
     if ( 'off' !== _x( 'on', 'Google font: on or off', 'ashe' ) ) {
-        $font_url = add_query_arg( 'family', urlencode( 'Kalam' ), "//fonts.googleapis.com/css" );
+        $font_url = esc_url( add_query_arg( 'family', urlencode( 'Kalam' ), "//fonts.googleapis.com/css" ) );
     }
     return $font_url;
 }
@@ -272,7 +276,7 @@ function ashe_kalam_font_url() {
 function ashe_rokkitt_font_url() {
     $font_url = '';
     if ( 'off' !== _x( 'on', 'Google font: on or off', 'ashe' ) ) {
-        $font_url = add_query_arg( 'family', urlencode( 'Rokkitt' ), "//fonts.googleapis.com/css" );
+        $font_url = esc_url( add_query_arg( 'family', urlencode( 'Rokkitt' ), "//fonts.googleapis.com/css" ) );
     }
     return $font_url;
 }

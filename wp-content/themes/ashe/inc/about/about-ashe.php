@@ -65,7 +65,7 @@ function ashe_about_page_output() {
 						printf( esc_html__( 'Need more details? Please check our full documentation for detailed information on how to use %s.', 'ashe' ), esc_html( $theme_data->Name ) );
 					?>
 					</p>
-					<a target="_blank" href="<?php echo esc_url('https://wp-royal-themes.com/themes/ashe/docs/?ref=ashe-free-backend-about-docs/'); ?>" class="button button-primary docs"><?php esc_html_e( 'Read Full Documentation', 'ashe' ); ?></a>
+					<a target="_blank" href="<?php echo esc_url('https://wp-royal-themes.com/themes/ashe/docs/?ref=ashe-free-backend-about-documentation/'); ?>" class="button button-primary docs"><?php esc_html_e( 'Read Full Documentation', 'ashe' ); ?></a>
 					<a target="_blank" href="<?php echo esc_url('https://youtu.be/mI_MYlOCAG8?t=169'); ?>" class="button button-primary insta"><span class="dashicons dashicons-video-alt3"></span><?php esc_html_e( 'Setup Instagram', 'ashe' ); ?></a>
 				</div>
 

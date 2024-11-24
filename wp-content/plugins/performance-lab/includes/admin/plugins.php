@@ -19,15 +19,18 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @return array{name: string, slug: string, short_description: string, requires: string|false, requires_php: string|false, requires_plugins: string[], download_link: string, version: string}|WP_Error Array of plugin data or WP_Error if failed.
  */
 function perflab_query_plugin_info( string $plugin_slug ) {
-	$plugin = get_transient( 'perflab_plugin_info_' . $plugin_slug );
+	$transient_key = 'perflab_plugins_info';
+	$plugins       = get_transient( $transient_key );
 
-	if ( is_array( $plugin ) ) {
-		/**
-		 * Validated (mostly) plugin data.
-		 *
-		 * @var array{name: string, slug: string, short_description: string, requires: string|false, requires_php: string|false, requires_plugins: string[], download_link: string, version: string} $plugin
-		 */
-		return $plugin;
+	if ( is_array( $plugins ) ) {
+		// If the specific plugin_slug is not in the cache, return an error.
+		if ( ! isset( $plugins[ $plugin_slug ] ) ) {
+			return new WP_Error(
+				'plugin_not_found',
+				__( 'Plugin not found in cached API response.', 'performance-lab' )
+			);
+		}
+		return $plugins[ $plugin_slug ]; // Return cached plugin info if found.
 	}
 
 	$fields = array(
@@ -41,36 +44,60 @@ function perflab_query_plugin_info( string $plugin_slug ) {
 		'version', // Needed by install_plugin_install_status().
 	);
 
-	$plugin = plugins_api(
-		'plugin_information',
+	// Proceed with API request since no cache hit.
+	$response = plugins_api(
+		'query_plugins',
 		array(
-			'slug'   => $plugin_slug,
-			'fields' => array_fill_keys( $fields, true ),
+			'author'   => 'wordpressdotorg',
+			'tag'      => 'performance',
+			'per_page' => 100,
+			'fields'   => array_fill_keys( $fields, true ),
 		)
 	);
 
-	if ( is_wp_error( $plugin ) ) {
-		return $plugin;
+	if ( is_wp_error( $response ) ) {
+		return new WP_Error(
+			'api_error',
+			sprintf(
+				/* translators: %s: API error message */
+				__( 'Failed to retrieve plugins data from WordPress.org API: %s', 'performance-lab' ),
+				$response->get_error_message()
+			)
+		);
 	}
 
-	if ( is_object( $plugin ) ) {
-		$plugin = (array) $plugin;
+	// Check if the response contains plugins.
+	if ( ! ( is_object( $response ) && property_exists( $response, 'plugins' ) ) ) {
+		return new WP_Error( 'no_plugins', __( 'No plugins found in the API response.', 'performance-lab' ) );
 	}
 
-	// Only store what we need.
-	$plugin = wp_array_slice_assoc( $plugin, $fields );
+	$plugins            = array();
+	$standalone_plugins = array_merge(
+		array_flip( perflab_get_standalone_plugins() ),
+		array( 'optimization-detective' => array() ) // TODO: Programmatically discover the plugin dependencies and add them here. See <https://github.com/WordPress/performance/issues/1616>.
+	);
+	foreach ( $response->plugins as $plugin_data ) {
+		if ( ! isset( $standalone_plugins[ $plugin_data['slug'] ] ) ) {
+			continue;
+		}
+		$plugins[ $plugin_data['slug'] ] = wp_array_slice_assoc( $plugin_data, $fields );
+	}
 
-	// Make sure all fields default to false in case another plugin is modifying the response from WordPress.org via the plugins_api filter.
-	$plugin = array_merge( array_fill_keys( $fields, false ), $plugin );
+	set_transient( $transient_key, $plugins, HOUR_IN_SECONDS );
 
-	set_transient( 'perflab_plugin_info_' . $plugin_slug, $plugin, HOUR_IN_SECONDS );
+	if ( ! isset( $plugins[ $plugin_slug ] ) ) {
+		return new WP_Error(
+			'plugin_not_found',
+			__( 'Plugin not found in API response.', 'performance-lab' )
+		);
+	}
 
 	/**
 	 * Validated (mostly) plugin data.
 	 *
-	 * @var array{name: string, slug: string, short_description: string, requires: string|false, requires_php: string|false, requires_plugins: string[], download_link: string, version: string} $plugin
+	 * @var array<string, array{name: string, slug: string, short_description: string, requires: string|false, requires_php: string|false, requires_plugins: string[], download_link: string, version: string}> $plugins
 	 */
-	return $plugin;
+	return $plugins[ $plugin_slug ];
 }
 
 /**
@@ -303,6 +330,11 @@ function perflab_install_and_activate_plugin( string $plugin_slug, array &$proce
 		return $plugin_data;
 	}
 
+	// Add recommended plugins (soft dependencies) to the list of plugins installed and activated.
+	if ( 'embed-optimizer' === $plugin_slug ) {
+		$plugin_data['requires_plugins'][] = 'optimization-detective';
+	}
+
 	// Install and activate plugin dependencies first.
 	foreach ( $plugin_data['requires_plugins'] as $requires_plugin_slug ) {
 		$result = perflab_install_and_activate_plugin( $requires_plugin_slug );
@@ -333,8 +365,11 @@ function perflab_install_and_activate_plugin( string $plugin_slug, array &$proce
 		}
 
 		$plugins = get_plugins( '/' . $plugin_slug );
-		if ( empty( $plugins ) ) {
-			return new WP_Error( 'plugin_not_found', __( 'Plugin not found.', 'default' ) );
+		if ( count( $plugins ) === 0 ) {
+			return new WP_Error(
+				'plugin_not_found',
+				__( 'Plugin not found among installed plugins.', 'performance-lab' )
+			);
 		}
 
 		$plugin_file_names = array_keys( $plugins );
@@ -405,8 +440,9 @@ function perflab_render_plugin_card( array $plugin_data ): void {
 		);
 
 		$action_links[] = sprintf(
-			'<a class="button perflab-install-active-plugin" href="%s">%s</a>',
+			'<a class="button perflab-install-active-plugin" href="%s" data-plugin-slug="%s">%s</a>',
 			esc_url( $url ),
+			esc_attr( $plugin_data['slug'] ),
 			esc_html__( 'Activate', 'default' )
 		);
 	} else {

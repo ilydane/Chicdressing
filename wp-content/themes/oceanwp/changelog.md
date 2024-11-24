@@ -1,6 +1,49 @@
 # OceanWP Changelog
 
-### _2024.10.09_ - 3.6.0
+### _2024.10.29_ - 4.0.2
+- **Added**:: Compatibility: WordPress: Customizer styling support for WordPress 6.7.
+- **Updated**:: Compatibility: WordPress: version number.
+- **Fixed**:: Customizer: Site Style: Boxed: Content width not rendered correclty on the front end.
+- **Fixed**:: Customizer: WooCommerce: Archives: Product Display Options: Product Image Style: Gallery Slider style: images not rendered correctly.
+- **Fixed**:: Customizer: WooCommerce: Store Notice: Enable Store Notice: control option changed from input to toggle button.
+- **Fixed**:: Customizer: WooCommerce: Single Product: Product Summary Content Builder: Quantity and Add to Cart option displaying HTML in the label.
+- **Fixed**:: Customizer: Top Bar: Social Menu: Social Menu Options: Icons Size: icon size not rendered correctly on the front end.
+- **Fixed**:: Customizer: Pages & Special Pages: Page Title: Background Image style: Title / Breadcrumbs position doesn't work.
+- **Fixed**:: Customizer: Blog: Single Post: Meta typography: default value not applied on the front end.
+- **Fixed**:: Customizer: Live Preview: some typography options do not render line height changes in live preview.
+- **Fixed**:: Customizer: Live Preview: WooCommerce border width changes for archives do not display changes in live preview.
+- **Fixed**:: Customizer: Control: Color: on options with previously no default color value the reset color option doesn't function.
+
+### _2024.10.21_ - 4.0.1
+- **Fixed**:: Customizer: Enable Google Fonts option doesn't inherit old settings from version 3.6.1 and lower.
+- **Fixed**:: Customizer: Footer Copyright: Typography: option for footer menu missing.
+- **Fixed**:: Customizer: Performance: incorrect help document link.
+- **Fixed**:: Function: Enqueue Google Fonts: incorrect conditional check for enqueueing.
+- **Fixed**:: WooCommerce: Single Product: Variable Products: parent product added to cart instead of product variation.
+- **Fixed**:: Page Title: Page Title heading and subheading colors reset after update.
+- **Fixed**:: WooCommerce: Archives: Hover Style: Add to Cart button colors.
+- **Removed**:: Theme: method of loading Google fonts via a json file due to increased API calls. PHP method reinstated.
+- **Removed**:: Customizer: Controls: Typography: dynamic display of available font weights for simplicity. Standard font weights reinstated.
+- **Removed**:: Customizer: Controls: Typography: individual font subset for simplicity (global font Google fonts subset options available).
+
+### _2024.10.16_ - 4.0.0
+- **NEW**:: Customizer: Library upgraded to default WordPress ReactJS.
+- **NEW**:: Customizer: Customizer Controls.
+- **NEW**:: Customizer: User Interface.
+- **NEW**:: Customizer: Reorganized settings for improved user experience.
+- **NEW**:: Customizer: Panels: Site Style & Settings, Pages & Special Pages, Colors.
+- **Added**:: Customizer: User documentation: https://docs.oceanwp.org/category/894-oceanwp-customizer
+- **Added**:: Customizer: Enhanced Device Preview support.
+- **Added**:: Customizer: Improved handling of nested settings.
+- **Removed**:: Customizer: Panels: General Options panel in favor of additional, smaller and more intuitive panels.
+- **Removed**:: Customizer: Legacy PHP Controls. (edited)
+
+### _2024.10.08_ - 3.6.1
+- **Updated**:: Magnific Popup library.
+- **Updated**:: WordPress version number for compatibility:
+- **Fixed**:: Potential vulnerability patched: Report by Wordfence from Oct 2nd 2024.
+
+### _2024.09.10_ - 3.6.0
 - **Updated**:: Compatibility: WooCommerce: Template version number for mini-cart.php
 
 ### _2024.08.05_ - 3.5.9
